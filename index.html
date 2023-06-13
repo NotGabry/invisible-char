@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invisible Character</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.4.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@2.0.0-alpha1/css/pico.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@2.0.0-alpha1/css/pico.colors.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <hgroup>
+        <h2 class="pico-color-indigo-300">Invisible Char</h2>
+        <p><kbd>Copy the invisible char easly</kbd></p>
+      </hgroup>
+      <hr />
+      <button><i class="fa-solid fa-clipboard"></i>Copy to clipboard</button>
+      <textarea
+        name="Testing Zone"
+        placeholder="Here it is your testing zone"
+        aria-label="Testing Zone"
+        aria-describedby="warningsmall"
+      ></textarea>
+      <small id="warningsmall">Nothing entered here will be saved.</small>
+    </main>
+  </body>
+
+  <script src="main.js"></script>
+</html>
